@@ -1,0 +1,24 @@
+.App {
+  box-sizing: border-box;
+  height: 100vh;
+  border: 50px solid #bfa47c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #35654d;
+}
+
+.winner-text {
+  animation: blinkingText 0.5s infinite;
+}
+
+@keyframes blinkingText {
+  0% { color: greenyellow}
+  0% { color: red}
+  50% { color: transparent}
+  75% { color: greenyellow}
+  100% { color: red}
+}

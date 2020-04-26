@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  height: 36px;
+  width: auto;
+  background: white;
+  font-size: 16px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+p, h1, h2, h3, span, strong {
+  color: white
+}
